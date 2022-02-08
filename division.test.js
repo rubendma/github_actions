@@ -16,3 +16,6 @@ test('División denominador en 0: 4 / 0 = Infinity', () =>{
     expect(division(4,0)).toBe(Infinity);
 });
 
+test('División números iguales: 4 / 4 = 1', () =>{
+    expect(division(4,4)).toBe(1);
+});
