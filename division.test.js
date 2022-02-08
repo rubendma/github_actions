@@ -12,7 +12,7 @@ test('División numerador en 0: 0 / 2 = 0', () =>{
     expect(division(0,2)).toBe(0);
 });
 
-test('División denominador en 0: 4 / 0 = NaN', () =>{
-    expect(division(4,0)).toBe(NaN);
+test('División denominador en 0: 4 / 0 = Infinity', () =>{
+    expect(division(4,0)).toBe(Infinity);
 });
 
