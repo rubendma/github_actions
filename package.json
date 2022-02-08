@@ -5,7 +5,7 @@
   "main": "suma.js",
   "scripts": {
     "test": "jest",
-    "build": "node suma"
+    "build": "node division"
   },
   "repository": {
     "type": "git",
