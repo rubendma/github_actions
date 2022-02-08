@@ -16,3 +16,6 @@ test('División denominador en 0: 4 / 0 = NaN', () =>{
     expect(division(4,0)).toBe(NaN);
 });
 
+test('División número iguales: 4 / 4 = 1', () =>{
+    expect(division(4,4)).toBe(1);
+});
